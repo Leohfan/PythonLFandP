@@ -1,0 +1,224 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 32561 entries, 0 to 32560
+Data columns (total 15 columns):
+age               32561 non-null int64
+workclass         30725 non-null object
+fnlwgt            32561 non-null int64
+education         32561 non-null object
+education-num     32561 non-null int64
+marital-status    32561 non-null object
+occupation        30718 non-null object
+relationship      32561 non-null object
+race              32561 non-null object
+sex               32561 non-null object
+capital-gain      32561 non-null int64
+capital-loss      32561 non-null int64
+hours-per-week    32561 non-null int64
+native-country    31978 non-null object
+income            32561 non-null object
+dtypes: int64(6), object(9)
+memory usage: 3.7+ MB
+   age          workclass  fnlwgt   education  education-num  \
+0   39          State-gov   77516   Bachelors             13   
+1   50   Self-emp-not-inc   83311   Bachelors             13   
+2   38            Private  215646     HS-grad              9   
+3   53            Private  234721        11th              7   
+4   28            Private  338409   Bachelors             13   
+
+        marital-status          occupation    relationship    race      sex  \
+0        Never-married        Adm-clerical   Not-in-family   White     Male   
+1   Married-civ-spouse     Exec-managerial         Husband   White     Male   
+2             Divorced   Handlers-cleaners   Not-in-family   White     Male   
+3   Married-civ-spouse   Handlers-cleaners         Husband   Black     Male   
+4   Married-civ-spouse      Prof-specialty            Wife   Black   Female   
+
+   capital-gain  capital-loss  hours-per-week  native-country  income  
+0          2174             0              40   United-States   <=50K  
+1             0             0              13   United-States   <=50K  
+2             0             0              40   United-States   <=50K  
+3             0             0              40   United-States   <=50K  
+4             0             0              40            Cuba   <=50K  
+                             less than 50K  more than 50K
+ Cambodia                               12            7.0
+ Canada                                 82           39.0
+ China                                  55           20.0
+ Columbia                               57            2.0
+ Cuba                                   70           25.0
+ Dominican-Republic                     68            2.0
+ Ecuador                                24            4.0
+ El-Salvador                            97            9.0
+ England                                60           30.0
+ France                                 17           12.0
+ Germany                                93           44.0
+ Greece                                 21            8.0
+ Guatemala                              61            3.0
+ Haiti                                  40            4.0
+ Holand-Netherlands                      1            0.0
+ Honduras                               12            1.0
+ Hong                                   14            6.0
+ Hungary                                10            3.0
+ India                                  60           40.0
+ Iran                                   25           18.0
+ Ireland                                19            5.0
+ Italy                                  48           25.0
+ Jamaica                                71           10.0
+ Japan                                  38           24.0
+ Laos                                   16            2.0
+ Mexico                                610           33.0
+ Nicaragua                              32            2.0
+ Outlying-US(Guam-USVI-etc)             14            0.0
+ Peru                                   29            2.0
+ Philippines                           137           61.0
+ Poland                                 48           12.0
+ Portugal                               33            4.0
+ Puerto-Rico                           102           12.0
+ Scotland                                9            3.0
+ South                                  64           16.0
+ Taiwan                                 31           20.0
+ Thailand                               15            3.0
+ Trinadad&Tobago                        17            2.0
+ United-States                       21999         7171.0
+ Vietnam                                62            5.0
+ Yugoslavia                             10            6.0
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:211: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:180: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:211: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:180: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\ipykernel_launcher.py:398: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:211: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:180: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\ipykernel_launcher.py:410: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:211: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:180: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\ipykernel_launcher.py:427: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+   capital-gain  capital-loss
+0          2174             0
+1             0             0
+2             0             0
+3             0             0
+4             0             0
+5             0             0
+6             0             0
+7             0             0
+8         14084             0
+9          5178             0
+capital-gain  capital-loss
+0             0               28330
+              155                 1
+              213                 4
+              323                 3
+              419                 3
+dtype: int64
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:211: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+D:\DOWNLOAD\Anaconda\lib\site-packages\matplotlib\backends\backend_agg.py:180: RuntimeWarning: Glyph 8722 missing from current font.
+  font.set_text(s, 0, flags=flags)
+Index(['age', 'workclass', 'education', 'education-num', 'marital-status',
+       'occupation', 'relationship', 'race', 'sex', 'native-country', 'income',
+       'age_set'],
+      dtype='object')
+age               0.000000
+workclass         0.056386
+education         0.000000
+education-num     0.000000
+marital-status    0.000000
+occupation        0.056601
+relationship      0.000000
+race              0.000000
+sex               0.000000
+native-country    0.017905
+income            0.000000
+age_set           0.000000
+dtype: float64
+222      90
+430      80
+918      81
+1040     90
+1168     88
+         ..
+32277    90
+32367    90
+32459    85
+32494    82
+32525    81
+Name: age, Length: 121, dtype: int64
+   workclass: Federal-gov  workclass: Local-gov  workclass: Never-worked  \
+0                       0                     0                        0   
+1                       0                     0                        0   
+2                       0                     0                        0   
+3                       0                     0                        0   
+4                       0                     0                        0   
+
+   workclass: Private  workclass: Self-emp-inc  workclass: Self-emp-not-inc  \
+0                   0                        0                            0   
+1                   0                        0                            1   
+2                   1                        0                            0   
+3                   1                        0                            0   
+4                   1                        0                            0   
+
+   workclass: State-gov  workclass: Without-pay  workclass:nan  \
+0                     1                       0              0   
+1                     0                       0              0   
+2                     0                       0              0   
+3                     0                       0              0   
+4                     0                       0              0   
+
+   education: 10th  ...  native-country: Trinadad&Tobago  \
+0                0  ...                                0   
+1                0  ...                                0   
+2                0  ...                                0   
+3                0  ...                                0   
+4                0  ...                                0   
+
+   native-country: United-States  native-country: Vietnam  \
+0                              1                        0   
+1                              1                        0   
+2                              1                        0   
+3                              1                        0   
+4                              0                        0   
+
+   native-country: Yugoslavia  native-country:nan  age_set:Teenager  \
+0                           0                   0                 0   
+1                           0                   0                 0   
+2                           0                   0                 0   
+3                           0                   0                 0   
+4                           0                   0                 1   
+
+   age_set:young man  age_set:elder  age_set:old man  age_set:nan  
+0                  1              0                0            0  
+1                  1              0                0            0  
+2                  1              0                0            0  
+3                  1              0                0            0  
+4                  0              0                0            0  
+
+[5 rows x 129 columns]
+0        0
+1        0
+2        0
+3        0
+4        0
+        ..
+32556    0
+32557    1
+32558    0
+32559    0
+32560    1
+Name:  >50K, Length: 32561, dtype: uint8
+              precision    recall  f1-score   support
+
+           0       0.87      0.91      0.89      4956
+           1       0.66      0.55      0.60      1557
+
+    accuracy                           0.82      6513
+   macro avg       0.76      0.73      0.74      6513
+weighted avg       0.82      0.82      0.82      6513
+
+0.7299101068205605
